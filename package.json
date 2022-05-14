@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nx run-many --target=start --all",
-    "build": "nx run-many --target=build --all"
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {},
@@ -13,7 +15,8 @@
     "@nrwl/workspace": "14.1.5",
     "nx": "14.1.5",
     "prettier": "^2.6.2",
-    "typescript": "~4.6.2"
+    "typescript": "~4.6.2",
+    "husky": "^8.0.0"
   },
   "workspaces": [
     "packages/**"
