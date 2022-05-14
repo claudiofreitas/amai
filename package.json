@@ -2,7 +2,9 @@
   "name": "amai",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run-many --target=start --all"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
