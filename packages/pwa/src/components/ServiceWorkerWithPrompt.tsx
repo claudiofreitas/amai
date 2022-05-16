@@ -33,7 +33,7 @@ const ServiceWorkerWithPrompt: FC = () => {
   };
 
   const onRegisterError = (error: any): void => {
-    console.log('SW registration error', error);
+    console.log('ServiceWorker registration error', error);
   };
 
   const {
